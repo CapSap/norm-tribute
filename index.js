@@ -12,6 +12,10 @@ app.use(express.static(path.join(__dirname,"/rip-norm/build")))
 //routes
 app.use('/api', require('./routes'))
 
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "/rip-norm/build", "index.html"))
+})
+
 app.use(cors())
 
 app.listen(PORT, () => {
