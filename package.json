@@ -8,7 +8,7 @@
     "server": "nodemon index.js",
     "client": "cd rip-norm && npm run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd rip-norm && npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "cd rip-norm && && NPM_CONFIG_PRODUCTION=false && npm install --only=dev && npm install && npm run build"
     
   },
   "keywords": [],
