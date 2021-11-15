@@ -22,12 +22,16 @@ function App() {
       </div>
 
       <div className="tweet-container">
-        {!data
+        {!data.data
           ? "loading from api.."
           : data.data.map((x) => (
               <div key={x.id} className="tweet">
                 <p>{x.text}</p>
-                {console.log(x)}
+                {x.text.includes("https") ? (
+                  <a href={x.text}> here is a lnk </a>
+                ) : (
+                  <div>{x.text}</div>
+                )}
               </div>
             ))}
       </div>
