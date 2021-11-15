@@ -52,6 +52,7 @@
 .tweet-container {
   background-color: antiquewhite;
   display: flex;
+  flex-wrap: wrap;
 }
 .tweet {
   background-color: whitesmoke;
@@ -59,7 +60,6 @@
   font-size: 2em;
   padding: 1em;
   margin: 1em;
-  min-width: 3em;
-  flex: 1 0 0;
-  flex-wrap: wrap;
+  min-width: 10em;
+  flex: 1 1 0;
 }
