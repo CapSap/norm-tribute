@@ -27,12 +27,14 @@ function App() {
           : data.data.map((x) => (
               <div key={x.id} className="tweet">
                 {x.text.includes("https") ? (
-                  <p>{x.text} + there should be an image here?</p>
+                  <p>
+                    {x.text} + there should be an image here? or have text only?
+                  </p>
                 ) : (
                   <div>{x.text}</div>
                 )}
                 <a href={`https://twitter.com/${x.author_id}/status/${x.id}`}>
-                  Link to view the tweet
+                  Click to view the tweet on twitter
                 </a>
               </div>
             ))}
