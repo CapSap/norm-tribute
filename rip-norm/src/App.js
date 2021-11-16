@@ -26,12 +26,16 @@ function App() {
           ? "loading from api.."
           : data.data.map((x) => (
               <div key={x.id} className="tweet">
-                <p>{x.text}</p>
                 {x.text.includes("https") ? (
-                  <a href={x.text}> here is a lnk </a>
+                  <p>
+                    {x.text} + there should be an image here? or have text only?
+                  </p>
                 ) : (
                   <div>{x.text}</div>
                 )}
+                <a href={`https://twitter.com/${x.author_id}/status/${x.id}`}>
+                  Click to view the tweet on twitter
+                </a>
               </div>
             ))}
       </div>
