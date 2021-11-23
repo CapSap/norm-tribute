@@ -4,10 +4,6 @@
   border: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,22 +29,36 @@
   border: solid;
   background-color: aliceblue;
   display: flex;
+  flex-wrap: wrap;
 }
+/* .title-cont > * {
+  /* flex-basis: 30%; */
 
-.text-cont {
+.title-text-cont {
   margin-top: 2em;
+
+  flex-shrink: 1;
+  flex-basis: 37%;
 }
 
 .title-text {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
 }
 .subtitle {
   font-size: 2rem;
   margin: 0.5em 0;
 }
-
 .img-cont {
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  min-width: 450px;
+}
+
+.img-cont img {
+  filter: grayscale(60%);
+  opacity: 1;
+  width: 100%;
 }
 
 .tweet-container {
