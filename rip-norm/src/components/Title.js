@@ -4,7 +4,7 @@ function Title() {
   return (
     <div className="title-cont">
       <div className="title-text-cont">
-        <h2>Tribute page to</h2>
+        <h2>Tribute page</h2>
         <h1 className="title-text">RIP Norm Macdonald </h1>
         <p className="subtitle">17 October 1959 - 14 September 2021 </p>
       </div>
