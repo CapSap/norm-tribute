@@ -13,8 +13,8 @@ function TweetComp() {
   return (
     <div>
       <div className="tweetHeading">
-        <h2>@normmacdonald I didn't even know he was sick</h2>
-        <p>here are some recent messages that people are leaving on twitter</p>
+        <h2>@normmacdonald </h2>
+        <p>What people are tweeting</p>
       </div>
       <div className="tweet-container">
         <div></div>

@@ -61,9 +61,41 @@
   min-width: 300px;
 }
 
-.tweetHeading {
-  min-height: 10em;
+.quote-background {
   background-color: #666666;
+  padding: 4%;
+}
+
+.quote-cont {
+  min-height: 10em;
+  padding: 4%;
+  border: 0.3em solid #dddddd;
+  background-color: #666666;
+  text-align: left;
+}
+.quote {
+  font: 1.5em sans-serif;
+  background-color: white;
+  vertical-align: -0.4em;
+  line-height: 1em;
+}
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.quote::after {
+  content: none;
+}
+.author {
+  font: 1.5em sans;
+  padding-right: 2em;
+  text-align: right;
+  color: whitesmoke;
+}
+.tweetHeading {
   border: 4px solid aliceblue;
 }
 
