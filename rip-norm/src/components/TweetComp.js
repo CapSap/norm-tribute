@@ -12,6 +12,15 @@ function TweetComp() {
 
   return (
     <div>
+      <div className="quote-background">
+        <div className="quote-cont">
+          <q className="quote">
+            Comedy is <strong>surprises</strong>. So if you're intending to make
+            somebody laugh and they don't laugh, that's funny.
+          </q>
+          <p className="author">-Norm Macdonald</p>
+        </div>
+      </div>
       <div className="tweetHeading">
         <h2>@normmacdonald </h2>
         <p>What people are tweeting</p>

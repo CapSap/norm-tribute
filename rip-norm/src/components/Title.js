@@ -13,15 +13,6 @@ function Title() {
           <img src={pic} alt="norm macdonald black and white"></img>
         </div>
       </div>
-      <div className="quote-background">
-        <div className="quote-cont">
-          <q className="quote">
-            Comedy is surprises. So if you're intending to make somebody laugh
-            and they don't laugh, that's funny.
-          </q>
-          <p className="author">-Norm Macdonald</p>
-        </div>
-      </div>
     </div>
   );
 }

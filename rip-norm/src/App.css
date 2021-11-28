@@ -37,6 +37,7 @@
   flex-shrink: 1;
   flex-basis: 37%;
   min-width: none;
+  font: Abadi MT Condensed Extra Bold;
 }
 
 .title-text {
@@ -70,11 +71,11 @@
   min-height: 10em;
   padding: 4%;
   border: 0.3em solid #dddddd;
-  background-color: #666666;
+  background-color: white;
   text-align: left;
 }
 .quote {
-  font: 1.5em sans-serif;
+  font: 1.5em Abadi MT Condensed Light sans-serif;
   background-color: white;
   vertical-align: -0.4em;
   line-height: 1em;
@@ -90,17 +91,17 @@
   content: none;
 }
 .author {
-  font: 1.5em sans;
+  font: 1.5em Abadi MT Condensed Light sans-serif;
   padding-right: 2em;
   text-align: right;
-  color: whitesmoke;
 }
 .tweetHeading {
   border: 4px solid aliceblue;
+  padding-left: 2em;
 }
 
 .tweet-container {
-  background-color: antiquewhite;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
