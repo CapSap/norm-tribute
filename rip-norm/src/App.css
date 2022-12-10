@@ -96,7 +96,9 @@
   text-align: right;
 }
 .tweetHeading {
-  padding-left: 2em;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: 3em;
 }
 
 .tweet-container {
