@@ -4,10 +4,6 @@
   border: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -29,39 +25,99 @@
 }
 
 .title-cont {
-  padding: 1em;
-  border: solid;
-  background-color: aliceblue;
+  background-color: #666666;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.text-cont {
+.title-text-cont {
   margin-top: 2em;
+  margin-left: 2em;
+
+  flex-shrink: 1;
+  flex-basis: 37%;
+  min-width: none;
+  font: Abadi MT Condensed Extra Bold;
 }
 
 .title-text {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
 }
 .subtitle {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0.5em 0;
+  color: #ededed;
+}
+.img-cont {
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  min-width: 400px;
 }
 
-.img-cont {
+.img-cont img {
+  filter: grayscale(70%);
+  opacity: 1;
+  width: 100%;
+  min-width: 300px;
+}
+
+.quote-background {
+  background-color: #666666;
+  padding: 4%;
+}
+
+.quote-cont {
+  min-height: 10em;
+  padding: 4%;
+  border: 0.3em solid #dddddd;
+  background-color: white;
+  text-align: left;
+}
+.quote {
+  font: 1.5em Abadi MT Condensed Light sans-serif;
+  background-color: white;
+  vertical-align: -0.4em;
+  line-height: 1em;
+}
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.quote::after {
+  content: none;
+}
+.author {
+  font: 1.5em Abadi MT Condensed Light sans-serif;
+  padding-right: 2em;
+  text-align: right;
+}
+.tweetHeading {
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: clamp(1.2em, 3em, 2.5vw);
 }
 
 .tweet-container {
-  background-color: antiquewhite;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
 .tweet {
   background-color: whitesmoke;
   border: solid;
-  font-size: 2em;
+  border-color: #666666;
+
+  font-size: 1.5em;
   padding: 1em;
   margin: 1em;
   min-width: 10em;
   flex: 1 1 0;
+}
+
+.tweet-link {
+  font-size: 0.8em;
 }
