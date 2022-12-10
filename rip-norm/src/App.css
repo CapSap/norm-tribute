@@ -108,9 +108,13 @@
 .tweet {
   background-color: whitesmoke;
   border: solid;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1em;
   margin: 1em;
   min-width: 10em;
   flex: 1 1 0;
+}
+
+.tweet-link {
+  font-size: 0.8em;
 }

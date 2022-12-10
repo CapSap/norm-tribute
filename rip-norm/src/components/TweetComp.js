@@ -33,7 +33,10 @@ function TweetComp() {
               <div key={x.id} className="tweet">
                 <div>{x.text}</div>
 
-                <a href={`https://twitter.com/${x.author_id}/status/${x.id}`}>
+                <a
+                  class="tweet-link"
+                  href={`https://twitter.com/${x.author_id}/status/${x.id}`}
+                >
                   Click to view the tweet on twitter
                 </a>
               </div>
