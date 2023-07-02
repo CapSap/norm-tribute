@@ -10,3 +10,5 @@ View the live site here:
 ## Update
 Twitter has updated it's API and the search endpoint that I was using is now a paid feature
 ![image](https://github.com/CapSap/norm-tribute/assets/23469082/cf8eb49f-16bc-417a-8989-c62b6dd2fa35)
+
+I wonder how tricky it would be to scrape this info? Maybe a future project idea
